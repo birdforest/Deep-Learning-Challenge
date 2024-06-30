@@ -29,3 +29,10 @@ Challenge 21
 - The use of ReLU activation fuction is to handle non-linear relationships while the Sigmoid function is appropriate for binary classification tasks.
 #### Target Model Performanve
 - The model achieved an accuracy of approximately 72.6% on the validation data. This performance is reasonable but does not reach the ideal target of 75% accuracy.
+#### Steps to Increase Model Performance
+- Model 1: Increased the number of neurons in the hidden layers to ca[ture more complex patterns.
+- Model 2: Added an additional hidden layer to enable the model to learn more hierarchical representations of the data.
+- Model 3: Used different activation functions (tanh instead of relu) and adjusted the learning rate to improve learning stability and potentially better capture data patterns.
+
+### Summary
+- The deep learning model developed for predicting the success of Alphabet Soup Charity applications achieved an accuracy of approximately 72.6%. Even with the additionally implemented optimizations, the results provide an accuracy of approximately 72.9%, 72.7%, 72.9% for model 1, model 2, model 3, respectively. Although the optimizations do not exceed the expectation, the results still provide a solid foundation for making predictions. Improvements could be made using different model approaches such as Random Forest, Gradient Boosting, or Support Vector Machines. I believe the current deep learning model provides a good starting point but with additional techniques, the performance would yield more reliable predictions for the Alphabet Soup Charity funding decisions.
