@@ -34,5 +34,16 @@ Challenge 21
 - Model 2: Added an additional hidden layer to enable the model to learn more hierarchical representations of the data.
 - Model 3: Used different activation functions (tanh instead of relu) and adjusted the learning rate to improve learning stability and potentially better capture data patterns.
 
+
+![Model 1 Accuracy](https://github.com/birdforest/Deep-Learning-Challenge/blob/main/Starter_Code/Model%201%20Accuracy.PNG)
+
+
+
+![Model 2 Accuracy](https://github.com/birdforest/Deep-Learning-Challenge/blob/main/Starter_Code/Model%202%20Accuracy.PNG)
+
+
+
+![Model 3 Accuracy](https://github.com/birdforest/Deep-Learning-Challenge/blob/main/Starter_Code/Model%203%20Accuracy.PNG)
+
 ### Summary
 - The deep learning model developed for predicting the success of Alphabet Soup Charity applications achieved an accuracy of approximately 72.6%. Even with the additionally implemented optimizations, the results provide an accuracy of approximately 72.9%, 72.7%, 72.9% for model 1, model 2, model 3, respectively. Although the optimizations do not exceed the expectation, the results still provide a solid foundation for making predictions. Improvements could be made using different model approaches such as Random Forest, Gradient Boosting, or Support Vector Machines. Random Forest help resolve overfitting issue and it provides an indication of the importance of features, which could be useful for understanding the data. Gradient Boosting focuses on correcting the errors of the previous models so it could assist with achieving high accuracy. Support Vector Machines are effective in high-dimensional spaces and they use a subset of training points in the decision function. I believe the current deep learning model provides a good starting point but with additional techniques, the performance would yield more reliable predictions for the Alphabet Soup Charity funding decisions.
